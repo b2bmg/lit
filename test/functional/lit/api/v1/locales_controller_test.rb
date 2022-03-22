@@ -1,7 +1,7 @@
 require 'test_helper'
 
 module Lit
-  class Api::V1::LocalesControllerTest < ActionController::TestCase
+  class API::V1::LocalesControllerTest < ActionController::TestCase
     def setup
       Lit.api_enabled = true
       Lit.api_key = 'test'

@@ -1,7 +1,7 @@
 require_dependency 'lit/api/v1/base_controller'
 
 module Lit
-  class Api::V1::LocalizationKeysController < Api::V1::BaseController
+  class API::V1::LocalizationKeysController < API::V1::BaseController
     def index
       @localization_keys = fetch_localization_keys
       render json: @localization_keys.as_json(

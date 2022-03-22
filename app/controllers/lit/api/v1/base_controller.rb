@@ -1,5 +1,5 @@
 module Lit
-  module Api
+  module API
     module V1
       class BaseController < ActionController::Base
         layout nil

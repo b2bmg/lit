@@ -1,7 +1,7 @@
 require 'test_helper'
 
 module Lit
-  class Api::V1::LocalizationsControllerTest < ActionController::TestCase
+  class API::V1::LocalizationsControllerTest < ActionController::TestCase
     def setup
       Lit::Localization.delete_all
       Lit::LocalizationKey.delete_all
